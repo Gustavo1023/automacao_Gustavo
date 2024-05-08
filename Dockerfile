@@ -1,6 +1,6 @@
 FROM alpine:latest as builder
 
-# Instalando dependências
+# Instalando dependênciass
 RUN apk add --no-cache wget unzip curl build-base libffi-dev openssl-dev
 
 # Instalando Terraform
